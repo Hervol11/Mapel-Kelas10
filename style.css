@@ -601,7 +601,8 @@ footer {
 }
 
 .mapel-img:hover {
-  width: 100%;
+  transform: scale(1.4);
+  margin: 50px;
 }
 
 .mapel-img2 {
@@ -718,7 +719,7 @@ a {
   }
 
   .mapel-img2 {
-    width: 100%;
+    width: 90%;
     opacity: 0.7;
     cursor: pointer;
     padding: 20px 30px;
@@ -797,6 +798,7 @@ a {
   }
   .mapel-img:hover {
     transform: scale(1.2);
+    margin: 0;
   }
 
   .tujuan {
