@@ -52,7 +52,7 @@ body {
   transform: rotate(360deg);
 }
 
-.div-nav{
+.div-nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@ body {
   padding-right: 20px;
 }
 
-.div-info{
+.div-info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,17 +86,16 @@ body {
   transition: all 0.1s ease-in-out;
 }
 
-.blk:hover{ 
+.blk:hover {
   color: skyblue;
-}  
-
+}
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -140,7 +139,7 @@ li {
   transition: all 0.3s;
 }
 
-.nav-animation:hover{
+.nav-animation:hover {
   color: skyblue;
   transform: rotate(5deg);
 }
@@ -271,7 +270,8 @@ li:hover {
   align-items: center;
   top: 0;
   height: 100px;
-  width: 50%;
+  width: max-content;
+  padding: 20px;
 }
 
 .icon-judul {
@@ -336,8 +336,8 @@ li:hover {
   text-align: center;
 }
 
-.btn-link{
-  width:50%;
+.btn-link {
+  width: 50%;
 }
 
 .btn {
@@ -597,10 +597,10 @@ footer {
 
 .mapel-img {
   width: 550px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.mapel-img:hover{
+.mapel-img:hover {
   width: 100%;
 }
 
@@ -613,7 +613,7 @@ footer {
   transition: all 0.3s ease-in-out;
 }
 
-.mapel-img2:hover{
+.mapel-img2:hover {
   transform: scale(1.1);
 }
 
@@ -626,7 +626,7 @@ footer {
 }
 
 .kelas-judul {
-  width: 50%;
+  width: max-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -678,12 +678,12 @@ footer {
   transform: rotate(10deg);
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-.kontak{
+.kontak {
   padding-top: 100px;
   width: 100%;
   height: 100vh;
@@ -692,18 +692,23 @@ a{
   background-size: cover;
   background-attachment: fixed;
   display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.kertas{
+.kertas {
   width: 60%;
   background-color: white;
   height: 90%;
 }
 
 @media screen and (max-width: 550px) {
+  .kelas-judul {
+    width: 100%;
+    font-size: 12px;
+  }
+
   .satu-buku {
     width: 100%;
   }
@@ -718,11 +723,11 @@ a{
     cursor: pointer;
     padding: 20px 30px;
   }
-  
+
   .mapel-img2:hover {
     opacity: 1;
   }
-  .div-nav{
+  .div-nav {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -739,7 +744,7 @@ a{
     text-align: center;
   }
 
-  .div-info{
+  .div-info {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -754,7 +759,6 @@ a{
     align-items: center;
     text-align: center;
   }
-
 
   .intro {
     font-size: small;
@@ -779,7 +783,7 @@ a{
 
   .profil {
     width: 100%;
-    opacity: 0.8;
+    background-color: rgba(36, 54, 86, 0.5);
   }
 
   .mapel-div {
@@ -791,12 +795,14 @@ a{
   .mapel-img {
     width: 100%;
   }
-  .mapel-img:hover{
+  .mapel-img:hover {
     transform: scale(1.2);
   }
 
   .tujuan {
+    width: 100%;
     height: 100px;
+    font-size: 12px;
   }
 
   .content-p {
@@ -823,7 +829,7 @@ a{
   .icon-img {
     width: 180px;
   }
-  .icon-img:hover{
+  .icon-img:hover {
     width: 210px;
   }
 
