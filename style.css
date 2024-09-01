@@ -711,7 +711,12 @@ a {
   }
 
   .satu-buku {
-    width: 100%;
+    width: 90%;
+  }
+
+  .satu-buku:hover {
+    transform: rotate(0deg);
+    transform: scale(1.2);
   }
 
   .cont-mapel {
