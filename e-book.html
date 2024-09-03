@@ -10,11 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>E-BOOK</title>
   </head>
   <body>
     <!-- ini navbar -->
-    <header class="navbar">
+    <header class="navbar" data-aos="fade-down" data-aos-duration="1500">
       <div class="logo">
         <img class="logo-tekno" src="assets/icon/tekno-logo.jpeg" alt="" />
       </div>
@@ -47,7 +48,12 @@
 
     <!-- Buku Mapel -->
     <div class="buku">
-      <div class="judul">
+      <div
+        class="judul"
+        data-aos="zoom-in"
+        data-aos-anchor-placement="top-center"
+        data-aos-duration="1500"
+      >
         <div class="kelas-judul">
           <img class="icon-judul" src="assets/icon/online-library.png" alt="" />
           <h1 class="kelas-kata">Buku Digital</h1>
@@ -57,6 +63,9 @@
       <div class="kumpulan-buku">
         <div class="pasangan-buku">
           <a
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2000"
             href="https://drive.google.com/file/d/1sf97hzp2rkHlb98sOjChFhzT5356AG_M/view"
           >
             <img
@@ -66,6 +75,9 @@
             />
           </a>
           <a
+            data-aos="fade-left"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2000"
             href="https://drive.google.com/file/d/1NIzwzeqIcK7RorZLX21pi2yQbixHjiFB/view"
           >
             <img
@@ -77,7 +89,10 @@
         </div>
         <div class="pasangan-buku">
           <a
-            href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Informatika-BS-KLS-X.pdf"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2300"
+            href="https://drive.google.com/file/d/1qIie7-iP6dIFFNTEYGqVptSQI6bzjVfi/view"
           >
             <img
               class="satu-buku"
@@ -86,7 +101,10 @@
             />
           </a>
           <a
-            href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/IPA-BS-KLS%20X.pdf"
+            data-aos="fade-left"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2300"
+            href="https://drive.google.com/file/d/1wuc31ljI1athaK-9i9Xw7PdMkUuft8Uu/view"
           >
             <img
               class="satu-buku"
@@ -97,7 +115,10 @@
         </div>
         <div class="pasangan-buku">
           <a
-            href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Matematika-BS-KLS-X.pdf"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2300"
+            href="https://drive.google.com/file/d/1fe-MsU2_pUz8KXTsiC0qI_wR0gpyECqe/view"
           >
             <img
               class="satu-buku"
@@ -106,7 +127,10 @@
             />
           </a>
           <a
-            href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/ISLAM-BS-KLS%20X.pdf"
+            data-aos="fade-left"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2300"
+            href="https://drive.google.com/file/d/1b5BKJQ-ZdMp9wjRqnpp4LojF6vBJiN7y/view"
           >
             <img
               class="satu-buku"
@@ -116,6 +140,9 @@
           </a>
         </div>
         <a
+          data-aos="fade-right"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="2300"
           href="https://drive.google.com/file/d/1lPzRuEoJTbhGc8jvo0QDxlSuWj77D90W/view"
         >
           <img
@@ -156,5 +183,11 @@
       </div>
       <h2 class="cp">&copy;TEKNO</h2>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // Inisialisasi AOS
+      AOS.init();
+    </script>
   </body>
 </html>

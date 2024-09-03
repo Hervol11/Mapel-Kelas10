@@ -10,11 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Kelas 10 F</title>
   </head>
   <body>
     <!-- ini navbar -->
-    <header class="navbar">
+    <header class="navbar" data-aos="fade-down" data-aos-duration="1500">
       <div class="logo">
         <img class="logo-tekno" src="assets/icon/tekno-logo.jpeg" alt="" />
       </div>
@@ -47,42 +48,67 @@
 
     <!-- JADWAL MAPEL 10F -->
     <div class="kelas10f">
-      <div class="judul">
+      <div class="judul" data-aos="zoom-in" data-aos-duration="2000">
         <div class="kelas-judul">
           <img class="icon-judul" src="assets/gambar/10f/logo10f.jpeg" alt="" />
           <h1 class="kelas-kata">KELAS X-F</h1>
         </div>
       </div>
 
-      <div class="mapel-div">
+      <div
+        class="mapel-div"
+        data-aos="fade-right"
+        data-aos-anchor-placement="top-center"
+        data-aos-duration="2000"
+      >
         <img
           class="mapel-img"
           src="assets/gambar/10f/senin-removebg-preview (3).png"
           alt=""
         />
       </div>
-      <div class="mapel-div">
+      <div
+        class="mapel-div"
+        data-aos="fade-left"
+        data-aos-anchor-placement="top-center"
+        data-aos-duration="2000"
+      >
         <img
           class="mapel-img kiri"
           src="assets/gambar/10f/selasa-removebg-preview (1).png"
           alt=""
         />
       </div>
-      <div class="mapel-div">
+      <div
+        class="mapel-div"
+        data-aos="fade-right"
+        data-aos-anchor-placement="top-center"
+        data-aos-duration="2000"
+      >
         <img
           class="mapel-img"
           src="assets/gambar/10f/rabu-removebg-preview (3).png"
           alt=""
         />
       </div>
-      <div class="mapel-div">
+      <div
+        class="mapel-div"
+        data-aos="fade-left"
+        data-aos-anchor-placement="top-center"
+        data-aos-duration="2000"
+      >
         <img
           class="mapel-img kiri"
           src="assets/gambar/10f/kamis-removebg-preview (2).png"
           alt=""
         />
       </div>
-      <div class="mapel-div">
+      <div
+        class="mapel-div"
+        data-aos="fade-right"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="2000"
+      >
         <img
           class="mapel-img"
           src="assets/gambar/10f/jumat-removebg-preview (3).png"
@@ -120,5 +146,11 @@
       </div>
       <h2 class="cp">&copy;TEKNO</h2>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // Inisialisasi AOS
+      AOS.init();
+    </script>
   </body>
 </html>

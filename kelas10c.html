@@ -10,11 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Kelas 10 C</title>
   </head>
   <body>
     <!-- ini navbar -->
-    <header class="navbar">
+    <header class="navbar" data-aos="fade-down" data-aos-duration="1500">
       <div class="logo">
         <img class="logo-tekno" src="assets/icon/tekno-logo.jpeg" alt="" />
       </div>
@@ -47,7 +48,7 @@
 
     <!-- JADWAL MAPEL 10C -->
     <div class="kelas10c">
-      <div class="judul">
+      <div class="judul" data-aos="zoom-in" data-aos-duration="2000">
         <div class="kelas-judul">
           <img class="icon-judul" src="assets/gambar/10c/logo10c.jpeg" alt="" />
           <h1 class="kelas-kata">KELAS X-C</h1>
@@ -56,15 +57,50 @@
 
       <div class="mapel-div2">
         <div class="cont-mapel">
-          <img class="mapel-img2" src="assets/gambar/10c/senin.jpg" alt="" />
-          <img class="mapel-img2" src="assets/gambar/10c/selasa.jpg" alt="" />
+          <div
+            class="center"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2000"
+          >
+            <img class="mapel-img2" src="assets/gambar/10c/senin.jpg" alt="" />
+          </div>
+          <div
+            class="center"
+            data-aos="fade-left"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2500"
+          >
+            <img class="mapel-img2" src="assets/gambar/10c/selasa.jpg" alt="" />
+          </div>
         </div>
         <div class="cont-mapel">
-          <img class="mapel-img2" src="assets/gambar/10c/rabu.jpg" alt="" />
-          <img class="mapel-img2" src="assets/gambar/10c/kamis.jpg" alt="" />
+          <div
+            class="center"
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2500"
+          >
+            <img class="mapel-img2" src="assets/gambar/10c/rabu.jpg" alt="" />
+          </div>
+          <div
+            class="center"
+            data-aos="fade-left"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2500"
+          >
+            <img class="mapel-img2" src="assets/gambar/10c/kamis.jpg" alt="" />
+          </div>
         </div>
-        <div class="center">
-          <img class="mapel-img2" src="assets/gambar/10c/jumat.jpg" alt="" />
+        <div class="cont-mapel">
+          <div
+            class="center"
+            data-aos="fade-right"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="2500"
+          >
+            <img class="mapel-img2" src="assets/gambar/10c/jumat.jpg" alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -98,5 +134,11 @@
       </div>
       <h2 class="cp">&copy;TEKNO</h2>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // Inisialisasi AOS
+      AOS.init();
+    </script>
   </body>
 </html>
